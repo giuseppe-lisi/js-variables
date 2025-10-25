@@ -16,7 +16,7 @@ console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = city.substring(0, 4) + "Dehli";
+const cityReplaced = city.replace("York", "Dehli");
 console.log(cityReplaced); // Output:  "New Delhi"
 
 // 4. Template literal
